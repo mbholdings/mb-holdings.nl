@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    height: 60px;
+}
+nav {
+    text-align: center;
+    margin-top: 15px;
+}
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+section {
+    padding: 50px 0;
+    text-align: center;
+}
+/*section:nth-child(even) {*/
+/*    background-color: #f2f2f2;*/
+/*}*/
+
+.even_section {
+    background-color: #282F39;
+    color: #BD9F79;
+}
+
+.main_logo {
+    width: 100%; /* Zorg ervoor dat de afbeelding de volledige breedte van de sectie inneemt */
+    height: 375px; /* Zorg ervoor dat de afbeelding de volledige hoogte van de sectie inneemt */ /
+}
+
+.largeButton {
+    /* Size */
+    width: 200px; /* Adjust the width as needed */
+    height: 60px; /* Adjust the height as needed */
+
+    /* Padding and Margin */
+    padding: 10px 20px; /* Add padding inside the button */
+    margin: 20px; /* Add margin around the button */
+
+    /* Color */
+    background-color: #BD9F79; /* Background color */
+    color: white; /* Text color */
+
+    /* Font */
+    font-size: 18px; /* Text size */
+    font-weight: bold; /* Text weight */
+
+    /* Border */
+    border: none; /* No border */
+    border-radius: 10px; /* Rounded corners */
+
+    /* Box Shadow */
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3); /* Adds a shadow effect */
+
+    /* Cursor */
+    cursor: pointer; /* Changes cursor to a pointer on hover */
+
+    /* Hover effect */
+    transition: background-color 0.3s; /* Smooth transition */
+}
+
+.largeButton:hover {
+    background-color: #BD9F70; /* Darker background color on hover */
+}
